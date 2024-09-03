@@ -1,0 +1,50 @@
+.student-details-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.student-details-container h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.student-details-container p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .student-details-container {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .student-details-container h2 {
+    font-size: 1.6em;
+  }
+
+  .student-details-container p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-details-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .student-details-container h2 {
+    font-size: 1.4em;
+  }
+
+  .student-details-container p {
+    font-size: 13px;
+  }
+}
