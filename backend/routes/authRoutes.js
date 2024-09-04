@@ -3,7 +3,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { check, validationResult } from 'express-validator';
 import User from '../models/UserModel.js';
-import config from '../config/db.js';
+
 
 const router = express.Router();
 

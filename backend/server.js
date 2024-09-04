@@ -4,7 +4,6 @@ import config from './config/config.js';
 import authRoutes from './routes/authRoutes.js';
 import studentRoutes from './routes/studentRoutes.js';
 import teacherRoutes from './routes/teacherRoutes.js';
-
 import cors from 'cors';
 import dotenv from 'dotenv';
 
