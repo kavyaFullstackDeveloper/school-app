@@ -1,7 +1,7 @@
 .dashboard-container {
   text-align: center;
   padding: 50px;
-  background-color: #ccc0c0;
+  background-color: #f0e5e5;
 }
 
 .dashboard-title {
@@ -40,10 +40,15 @@
   height: auto;
 }
 
+.dashboard-container h1 {
+  color:  rgba(74, 74, 75, 0.925);
+}
+
 .img-2 {
   background-size: 100vw;
   margin: 1px;
-  margin-left: 50px;
+  text-align: center;
+  background-color: #f0e5e5;
 }
 
 /* Responsive Styling */

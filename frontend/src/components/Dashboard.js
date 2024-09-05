@@ -13,7 +13,9 @@ function Dashboard() {
         <Link to="/teachers" className="dashboard-link">Manage Teachers</Link>
         </div>
        </div>
-        <img className='img-2' src="https://m.media-amazon.com/images/I/81m90ZqaYvL.jpg"/>
+       <div className='img-2'>
+        <img  src="https://m.media-amazon.com/images/I/81m90ZqaYvL.jpg"/>
+        </div>
        </div>
   );
 }
